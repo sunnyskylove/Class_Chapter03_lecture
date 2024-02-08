@@ -32,6 +32,8 @@ public class Application01 {
 //        d.testSimpleSwitchStatement();      // 스위치문 (계산기)
         d.testSwitchVendingMachine();          // 스위치문 (음료 자판기)
 
+//        Application01 e = new Application01()
+
 
 
 

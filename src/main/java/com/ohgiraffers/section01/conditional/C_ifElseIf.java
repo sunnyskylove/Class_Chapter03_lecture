@@ -12,7 +12,7 @@ public class C_ifElseIf {
         *  if(조건식1) {
         *   조건식1 이 true 일 때 실행할 명령문;
         *  } else if {
-        *      조건식1이 false이고, 조건식2가 true일때 실행할 명령문;
+        *      조건식1이 false 이고, 조건식2가 true 일때 실행할 명령문;
         *  }  else {
         *    위의 조건 2개가 모두 거짓인 경우 실행할 명령문;
         *  }
@@ -50,7 +50,7 @@ public class C_ifElseIf {
             System.out.println("잘못 입력하셨습니다.");     // 잘못 입력했을때 나오는 수
         }
 
-        System.out.println("그렇게 산신령은 다시 연못 속으로 사라지고 말았다....");   // 마지막 else없이 종료
+        System.out.println("그렇게 산신령은 다시 연못 속으로 사라지고 말았다....");   // 마지막 else 없이 종료
 
 
     }
