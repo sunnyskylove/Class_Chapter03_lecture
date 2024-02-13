@@ -1,4 +1,4 @@
-package com.ohgiraffers.section02.question;
+package com.ohgiraffers.section10.question;
 
 import java.util.Scanner;
 
