@@ -8,7 +8,7 @@ public class A_for {
 
         /* 수업목표. for문 단독 사용에 대한 흐름을 이해하고 적용할 수 있다. */
         /* 필기.
-         *   ★중요!! [for 문 표현식]
+         *   [for 문 표현식]
          *   for(초기식; 조건식; 증감식) {
          *       조건을 만족하는 경우 수행할 구문(반복할 구문);
          *   }
@@ -19,6 +19,7 @@ public class A_for {
         for(int i = 1; i <= 10; i++) {
             System.out.println(i);
         }
+
 
     }
 
@@ -96,6 +97,7 @@ public class A_for {
 
         /* 필기. 결과를 누적시켜 담아줄 변수 선언 */
         int sum = 0;
+
         /* 필기. sum에 변수의 값 하나씩 담기 */
         sum += num1;  // sum = sum + num1;
         sum += num2;
@@ -109,8 +111,7 @@ public class A_for {
         sum += num10;
 
         System.out.println("sum : " + sum);
-// 일일히 다 작성해야해서 엄청 수고로움. 따라서 반복문으로 간결하게 만들자!
-// 공통: 1씩 증가
+
 
         int sum2 = 0;
 
@@ -119,9 +120,9 @@ public class A_for {
         }
 
         System.out.println("sum2 = " + sum2);
-        //하지만 실행은 Application01에서 실행해야 출력됨
 
     }
+
 
     public void testForExample3() {
 
@@ -133,8 +134,6 @@ public class A_for {
          *  */
         // Math.random() * 숫자의 범위 + 시작값
         int random = (int)(Math.random() * 6) + 5;
-//        범위가 6개(5~10까지니깐), 5는 시작값
-//        실수값인데 정수로 요청해서 오류였음. 따라서 (int)로 강제형변환한다.
 
         System.out.println("random : " + random);
 
@@ -197,15 +196,18 @@ public class A_for {
         System.out.println("1부터 " + random + "까지의 합은 : " + sum);
         // 반복문을 안쓰면 이렇게 번거롭다~~
 
-        System.out.println("=============================================================");
+        System.out.println("======================================");
 
         /* 필기. 반복문을 이용한 개선 */
 
-        int sum2 = 0;                                //초기식
-        for(int i = 1; i <= random; i++) {           //공통 만들고, 조건문 만들기
-            sum2 += i;                               //결과값
+        int sum2 = 0;
+
+        for(int i = 1; i <= random; i++) {
+            sum2 += i;
         }
-        System.out.println("1부터 " + random + "까지의 합은 : " + sum2);   // 출력값
+
+        System.out.println("1부터 " + random + "까지의 합은 : " + sum2);
+
     }
 
     public void testForExample4() {
@@ -280,7 +282,7 @@ public class A_for {
 
         Scanner sc = new Scanner(System.in);
         System.out.print("출력할 구구단의 단 수를 입력하세요 : ");
-        int dan = sc.nextInt();                                 // 조건1 만들기 출력준비
+        int dan = sc.nextInt();
 
         if(dan >= 2 && dan <= 9) {
 
@@ -294,16 +296,14 @@ public class A_for {
 //            System.out.println(dan + "*" + 7 + " = " + (dan * 7));
 //            System.out.println(dan + "*" + 8 + " = " + (dan * 8));
 //            System.out.println(dan + "*" + 9 + " = " + (dan * 9));
-            for(int su = 1; su <= 9; su++) {                      //조건2 식 만듦
-                System.out.println(dan + " * " + su + " = " + (dan * su));   // 출력!
+            for(int su = 1; su <= 9; su++) {
+                System.out.println(dan + " * " + su + " = " + (dan * su));
             }
-
 
         } else {
             System.out.println("반드시 2 ~ 9 사이의 양수를 입력해야 합니다.");
         }
 
     }
-
 
 }

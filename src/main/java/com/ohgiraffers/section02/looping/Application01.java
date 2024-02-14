@@ -24,10 +24,5 @@ public class Application01 {
 //        a3.test4();         // 1~100 중 짝수만 출력
         a3.test5();
 
-
-
-
     }
-
-
 }
