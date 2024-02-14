@@ -1,9 +1,8 @@
 package com.ohgiraffers.section02.looping;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
-public class Test {
+public class Test_for {
     public void testTest() {
         //1. 1부터 10까지의 숫자를 출력하는 프로그램
 //        Scanner sc = new Scanner(System.in);
@@ -28,7 +27,7 @@ public class Test {
     /* 1부터 100까지의 숫자 중 짝수만 출력하는 프로그램 */
     public void test4(){
 
-        for(int i=2; i <= 100; i+=2 ){      // 증감식일땐 ; 붙이지 않는다, 2를 더해야할때(짝수) 연산법칙 사용할것!!!
+        for(int i = 2; i <= 100; i+=2 ){      // 증감식일땐 ; 붙이지 않는다, 2를 더해야할때(짝수) 연산법칙 사용할것!!!
             System.out.println(i);
         }
     } public void test5(){
@@ -56,15 +55,37 @@ public class Test {
         System.out.println(num + "! = " + fac);
     }
 
+    /* 0시 0분에서 23시 59분 까지 출력하는 프로그램을 작성해보자 */
+    public void test6 (){
+        for(int i = 0; i< 24; i++){
+            for(int j= 0; j<=59; j++)
+            System.out.println(i+"시"+j+"분");
+
+        }
     }
 
+    public void test7 (){
+        /* 별 만들기 게임
+         *   *
+         *   **
+         *   ***
+         *   ****
+         *   *****
+         *   이런 식으로 행이 늘어날 때 별도 들어나는 식을 만들어보자
+         *
+         *  */
+//보류~~
+        for(int i= 1; i < 5; i++){
+            for(int j= 0; j < i; j++){
+                System.out.println("*");
+            }
+
+            System.out.println();
+        }
 
 
 
 
+    }
 
-
-
-
-
-
+    }

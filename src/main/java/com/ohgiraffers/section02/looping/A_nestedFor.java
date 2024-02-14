@@ -24,7 +24,6 @@ public class A_nestedFor {
 
         }
 
-
     }
 
     public void printUpgradeGugudan() {
@@ -67,11 +66,8 @@ public class A_nestedFor {
             }
 
             System.out.println();                   // 줄 띄우기 위해서 한번 더 출력해준다.
-
         }
 
-
     }
-
 
 }
