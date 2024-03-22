@@ -1,4 +1,5 @@
-## Conditional(조건문), Looping(반복문), Branching(분기문)
+## ■ Conditional(조건문), Looping(반복문), Branching(분기문)
+
 
 ### 1. Conditional(조건문): 프로그램의 흐름을 조건에 따라 제어한다.
 * 'if', 'else if', 'else' 구조를 사용하여 조건문을 구성한다. 
